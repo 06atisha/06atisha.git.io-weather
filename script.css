@@ -1,0 +1,98 @@
+body {
+    /*new rupesh sir locationkey AIzaSyCgdHm6eS934sVMsByQOJ74tqcnbTLqj4w      
+     eb34af98df9bd58118911a5cb9775764   location key- AIzaSyCrMxt9u6veNzPMJDwr5O1K9Tz8kOVOmsY mapsapikey- AIzaSyBEBPFj8G-XucbYhAgRWZLbrBFarxXwyJ4  */
+    font-family: 'Arial', sans-serif;
+    background-color: #3498db;
+    /* Blue background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 470px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px 35px;
+    margin: 100px auto 0;
+}
+
+.input-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    justify-content: space-between;
+}
+
+.input-container input {
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    font-size: 16px;
+    color: #555;
+    border-radius: 30px;
+    background: #ebfffc;
+    margin-right: 16px;
+    margin-top: 20px;
+    flex: 1;
+    height: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2ecc71;
+    /* Green button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.8s ease;
+}
+
+button:hover {
+    background-color: #27ae60;
+    /* Darker green color on hover */
+}
+
+.weather-icon {
+    width: 170px;
+    margin-top: 20px;
+
+}
+
+.weather h1 {
+    font-size: 40px;
+    font-weight: 50px;
+}
+
+.weather h2 {
+    font-size: 20px;
+    font-weight: 50px;
+    margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col {
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
